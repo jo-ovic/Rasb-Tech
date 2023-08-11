@@ -8,13 +8,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-:root{
-  --cor-primaria:#112B3C;
-  --cor-secundaria:#205375;
-  --cor-tercearia:#4e3dff;
-  --cor-hover:#9d98ed;
-  --cor-tercearia-invert:#EFEFEF;
+:root {
+  --cor-primaria: #112B3C;
+  --cor-secundaria: #205375;
+  --cor-tercearia: #4e3dff;
+  --cor-hover: #9d98ed;
+  --cor-tercearia-invert: #EFEFEF;
 }
+
 body {
   font-family: "Open Sans", sans-serif;
   color: var(--cor-primaria);
@@ -573,6 +574,7 @@ section {
   -webkit-animation: slide-down 0.5s ease-out;
   animation: slide-down 0.5s ease-out;
 }
+
 
 @-webkit-keyframes slide-down {
   0% {
