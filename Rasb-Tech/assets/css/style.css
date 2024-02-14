@@ -578,7 +578,7 @@ section {
 .featured .botao {
   display: inline-block;
   padding: 10px 20px;
-  background-color: var(--cor-tercearia-invert);;
+  background-color: var(--cor-tercearia);;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
