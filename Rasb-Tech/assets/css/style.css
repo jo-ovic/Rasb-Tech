@@ -584,7 +584,6 @@ section {
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  transition-delay: .2s;
 }
 
 .featured .botao:hover {
