@@ -39,12 +39,7 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif;
 }
-.img-fluid{
-  width: auto;
-}
-.img-fluid .top{
-  width: 100px;
-}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -117,7 +112,7 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 100px;
+  max-height: 200px;
 }
 
 @media (max-width: 992px) {
@@ -384,7 +379,6 @@ h6 {
 }
 
 #hero .hero-logo {
-  width: 100px;
   margin-bottom: 30px;
 }
 
