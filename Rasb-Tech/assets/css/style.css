@@ -112,7 +112,7 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 80px;
+  max-height: 200px;
 }
 
 @media (max-width: 992px) {
@@ -575,20 +575,6 @@ section {
   animation: slide-down 0.5s ease-out;
 }
 
-.featured .botao {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: var(--cor-tercearia);;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-}
-
-.featured .botao:hover {
-  background-color: var(--cor-hover);
-}
 
 @-webkit-keyframes slide-down {
   0% {
@@ -915,12 +901,7 @@ section {
   transition: bottom ease-in-out 0.4s;
 }
 
-@media (min-width: 992px){
-  .team .col-lg-4 {
-    flex: 0 0 auto;
-    width: 25%;
-}
-}
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -1174,6 +1155,13 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
+.contact .info .whatsapp i{
+  font-size: 100px;
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+}
+
 .contact .info h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
@@ -1190,13 +1178,15 @@ section {
 }
 
 .contact .info .email,
-.contact .info .phone {
+.contact .info .phone,
+.contact .info .whatsapp {
   margin-top: 40px;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .phone:hover i,
+.contact .info .whatsapp:hover i {
   background: var(--cor-tercearia);
   color: var(--cor-hover);
 }
