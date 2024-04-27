@@ -118,7 +118,7 @@ h6 {
 #header .logo-top img {
   padding: 0;
   margin: 0;
-  width: 160px;
+  width: 140px;
 }
 
 @media (max-width: 992px) {
@@ -386,6 +386,7 @@ h6 {
 
 #hero .hero-logo {
   margin-bottom: 30px;
+  width: 400px;
 }
 
 #hero h1 {
